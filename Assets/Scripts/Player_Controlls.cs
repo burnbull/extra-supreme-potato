@@ -38,6 +38,13 @@ public class Player_Controlls : MonoBehaviour {
 
 
 
+		 
+		
+
+
+
+
+
 		RaycastHit2D hit = Physics2D.Raycast (new Vector3 (transform.position.x, transform.position.y - (GetComponent<BoxCollider2D> ().bounds.size.y / 2) - 0.1f, 0.0f), Vector2.down);
 
 

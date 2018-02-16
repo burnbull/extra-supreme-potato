@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy1 : Enemy_inheritence{
-	Vector2 speed = rb.velocity;
+//	Vector2 speed = rb.velocity;
 	private Rigidbody2D rb ;
 	public bool direction;
 
@@ -31,7 +31,7 @@ public class Enemy1 : Enemy_inheritence{
 
 
 
-			rb.velocity = new Vector2 (speed.x, speed.y);
+			rb.velocity = new Vector2 (5, 0);
 
 				
 
@@ -48,7 +48,7 @@ public class Enemy1 : Enemy_inheritence{
 
 
 
-			rb.velocity = new Vector2 (speed.x, speed.y);
+			rb.velocity = new Vector2 (-5, 0);
 
 
 
@@ -90,7 +90,7 @@ public class Enemy1 : Enemy_inheritence{
 
 			if (direction==true) {
 				
-				vector2 (speed.x) = Random.Range(-1, -10);
+				//vector2 (speed.x) = Random.Range(-1, -10);
 				//Vector2 temp = rb.velocity;
 
 				//rb.velocity = new Vector2 (5, temp.y);
@@ -100,7 +100,7 @@ public class Enemy1 : Enemy_inheritence{
 			else if (direction==false) {
 				
 
-				vector2(speed.x) = Random.Range(1, 10);
+				//vector2(speed.x) = Random.Range(1, 10);
 
 				//Vector2 temp = rb.velocity;
 
